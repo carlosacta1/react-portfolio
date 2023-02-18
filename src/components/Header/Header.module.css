@@ -1,0 +1,45 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Logo */
+  .name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Navigation */
+  .nav {
+    align-items: center;
+  }
+  
+  /* Navigation links */
+  .nav a {
+    margin-left: 30px;
+    color: rgba(245, 245, 245, 0.685);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .nav a:hover {
+    color: #f5a623;
+  }
+
+.portfolio_img {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; /* Make sure image doesn't overflow the circle */
+    object-fit: cover;
+    margin: 0 auto; /* Center the image horizontally */
+}

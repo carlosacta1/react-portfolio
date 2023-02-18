@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import { User } from './data.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          React Portfolio
-        </h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Header
+          name = {User.name} 
+          image = {User.image}
+        />
+        Website under construction, if you want more information please refer to the linkedin profile
+        <a href="https://www.linkedin.com/in/carlos-andres-acosta-tangarife-7869881b9/"> Carlos Acosta</a>
+      </div>
     </div>
   );
 }
